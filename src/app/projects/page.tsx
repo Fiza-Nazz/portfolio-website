@@ -76,7 +76,15 @@ const projects: Project[] = [
     description:
       "A rental platform built with Next.js and Tailwind CSS offering a seamless e-commerce experience for property rentals.",
     category: "E-commerce",
-    tech: ["Next.js", "Tailwind CSS", "Apis", "Sanity","Framer Motion","Authentication","Dynamic Structure"],
+    tech: [
+      "Next.js",
+      "Tailwind CSS",
+      "Apis",
+      "Sanity",
+      "Framer Motion",
+      "Authentication",
+      "Dynamic Structure",
+    ],
     link: "https://morent-marketplace-jade.vercel.app/",
   },
   {
@@ -85,19 +93,27 @@ const projects: Project[] = [
     description:
       "A fully functional e-commerce store developed with React and Next.js featuring intuitive UI and secure checkout.",
     category: "E-commerce",
-    tech: ["Next.js", "Tailwind CSS", "Apis", "Sanity","Framer Motion","Authentication","Dynamic Structure"],
+    tech: [
+      "Next.js",
+      "Tailwind CSS",
+      "Apis",
+      "Sanity",
+      "Framer Motion",
+      "Authentication",
+      "Dynamic Structure",
+    ],
     link: "https://fake-store-three-green.vercel.app/",
   },
   {
-    title: "Blog Website",
-    image: "/blog.png",
+    title: "Dynamic Resume",
+    image: "/resume.png",
     description:
-      "A modern blog platform built with Next.js that features dynamic content and optimized performance.",
-    category: "Blog",
-    tech: ["Next.js", "React.js", "Tailwind Css"],
-    link: "https://example.com/blog-website",
+      "A dynamic resume platform built with Next.js that features real-time content updates and optimized performance.",
+    category: "Dynamic Resume",
+    tech: ["Html", "Css", "TypeScript"],
+    link: "https://fiza-dynamic-resume.netlify.app/",
   },
-];
+]
 
 const containerVariants = {
   hidden: {},
@@ -169,7 +185,7 @@ export default function Projects() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-center text-lg md:text-xl mb-8 font-serif text-gray-200 max-w-2xl mx-auto"
         >
-          Explore my Crafting stunning digital experiences with a powerhouse of modern technologies: HTML, CSS, JavaScript/TypeScript, Node.js, React, Next.js, Tailwind CSS, Sanity, APIs, Framer Motion, and React Icons showcasing modern web development and design.
+          Discover innovative web solutions built with cutting-edge technologies that merge creativity and technical excellence.
         </motion.p>
 
         {/* Filter Buttons */}
